@@ -21,7 +21,7 @@ def swap_elements_fromt_to(array,loc1,loc2)
   copy1 = array[loc1] 2
   copy2 = array[loc2] 3
   arrCopy = array
-  arrCopy[loc1] =copy2
+  arrCopy[loc1] = copy2
   arrCopy[loc2] = copy1
   return arrCopy
 end
