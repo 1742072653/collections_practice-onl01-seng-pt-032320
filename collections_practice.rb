@@ -48,7 +48,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  return array.inject {|sum,n| sum + n}
+  return array.inject (:+)
 end
 def add_s(array)
   array.each_with_index.collect {|element,index|
