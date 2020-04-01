@@ -17,12 +17,12 @@ def swap_elements(array)
   
 end
 
-def swap_elements_fromt_to(array,loc1,loc2)
-  copy1 = array[loc1] 
-  copy2 = array[loc2] 
+def swap_elements_fromt_to(array)
+  copy1 = array[1] 
+  copy2 = array[2] 
   arrCopy = array
-  arrCopy[loc1] = copy2
-  arrCopy[loc2] = copy1
+  arrCopy[1] = copy2
+  arrCopy[2] = copy1
   return arrCopy
 end
 
